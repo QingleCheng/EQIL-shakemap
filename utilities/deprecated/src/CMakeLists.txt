@@ -1,0 +1,8 @@
+aux_source_directory(. SRC)
+foreach(F ${SRC})
+    STRING(REGEX REPLACE ".+/(.+)\\..*" "\\1" FILE_NAME ${F})
+    add_library(${FILE_NAME} SHARED ${F})
+    set_target_properties(${FILE_NAME} PROPERTIES PREFIX "")
+    set_target_properties(${FILE_NAME} PROPERTIES SUFFIX ".so")
+    target_link_libraries(${FILE_NAME} ${Boost_LIBRARIES} ${PYTHON_LIBRARIES} ${GSL_LIBRARIES} ${GSLCBLAS_LIBRARIES})
+endforeach(F ${SRC})

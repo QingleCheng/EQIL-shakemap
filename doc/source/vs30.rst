@@ -1,0 +1,6 @@
+Vs30 类
+=======
+.. automodule:: vs30
+   :members:
+   :undoc-members:
+   :show-inheritance:
