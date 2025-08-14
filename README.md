@@ -5,7 +5,7 @@
 - The proposed method uses the ShakeMap method to construct the response spectrum of the ground motion field for the target region and then uses the continuous wavelet transform to generate the ground motion field. The time-history-based Newmark sliding block method is then adopted to calculate the probability of landslide occurrence. 
 
 
-This repository contains the source code for the paper:  
+- This repository contains the source code for the paper:  
 
 **Cheng QL, Meng XC, Gu Y, Liao WJ, Xie LL*, Lu XZ.**  
 **An open-source rapid regional earthquake-induced landslides evaluation method using time-history analysis.**  
@@ -122,3 +122,5 @@ $ conda activate shakemap
 ### How to contribute the project?
 
 - Just fork the project and raise a pull request
+
+- If you have any questions or are interested in collaboration, please contact the author at **chengql94@163.com**.
