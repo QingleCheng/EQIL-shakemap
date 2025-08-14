@@ -7,7 +7,7 @@
 
 - This repository contains the source code for the paper:  
 
-**Cheng QL, Meng XC, Gu Y, Liao WJ, Xie LL*, Lu XZ.**  
+**Cheng QL, Meng XC, Gu Y, Liao WJ, Xie LL, Lu XZ.**  
 **An open-source rapid regional earthquake-induced landslides evaluation method using time-history analysis.**  
 *Seismological Research Letters, 2025.*  
 
