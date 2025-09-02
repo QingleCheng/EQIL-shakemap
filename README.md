@@ -18,7 +18,7 @@ If you use this code in your research, please cite the paper as follows:
 Cheng QL, Meng XC, Gu Y, Liao WJ, Xie LL*, Lu XZ.
 An open-source rapid regional earthquake-induced landslides evaluation method using time-history analysis.
 Seismological Research Letters, 2025.
-https://doi.org/[Insert DOI here]
+https://doi.org/10.1785/0220250121
 ```
 
 ### Framework
@@ -36,7 +36,7 @@ https://doi.org/[Insert DOI here]
 3.Clone the project repository and compile the required features. Execute the program from the root directory.
 
 ```shell
-$ git clone https://gitee.com/guyi2000/land-slide landslide
+$ git clone https://github.com/QingleCheng/EQIL-shakemap landslide
 $ cd ./landslide
 $ mkdir -v ./utilities/build
 $ pushd ./utilities/build
